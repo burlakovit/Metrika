@@ -1,0 +1,365 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+}
+
+.nav-section {
+  margin: 0px auto;
+  margin-top: 33px;
+  margin-bottom: 68px;
+  width: 1151px;
+}
+
+.nav {
+  width: 1151px;
+}
+
+.logo_link {
+  display: inline-block;
+  margin-right: 530px;
+}
+
+.logo {
+  display: block;
+  width: 127px;
+  height: 23px;
+}
+
+.nav-links {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.nav__link {
+  display: inline-block;
+  margin-right: 60px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: -0.54px;
+  color: #121212;
+  text-decoration: none;
+}
+
+.nav__link:nth-last-child(1) {
+  margin-right: 0px;
+}
+
+.nav__link_active {
+  opacity: 0.5;
+  border-bottom: 1px #000 solid;
+}
+
+.nav__link:hover {
+  opacity: 0.5;
+  border-bottom: 1px #000 solid;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.hero__title {
+  margin-top: 68px;
+  margin-bottom: 30px;
+  width: 956px;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+  color: #121212;
+}
+
+.hero__description {
+  margin-bottom: 150px;
+  background-image: url(../resources/interior.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 1150px;
+  height: 500px;
+}
+
+.hero__text {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  width: 430px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  color: #fff;
+}
+
+.about {
+  width: 1180px;
+  margin: 0 auto 150px;
+}
+
+.about__title {
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  color: #121212;
+}
+
+.about__description {
+  margin-bottom: 30px;
+  width: 1048px;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.35px;
+}
+
+.about__btn {
+  width: 255px;
+  height: 67px;
+  display: block;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #ad1818;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 67px;
+  letter-spacing: -0.6px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+}
+
+.projects {
+  margin: 0 auto 150px;
+  padding: 0 15;
+  width: 1150px;
+}
+
+.projects__content-wrapper {
+  margin: 0 auto 90px;
+  width: 1150px;
+  height: 548px;
+}
+
+.projects__title {
+  margin-bottom: 30px;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px; 
+}
+
+.projects__project-image {
+  margin-bottom: 15px;
+  display: block;
+  width: 1150px;
+  height: 450px;
+}
+
+.projects__project-title {
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.9px;
+}
+
+.projects__link {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.6px;
+  text-decoration: none;
+  color: #ad1818;
+  cursor: pointer;
+}
+
+.projects__btn {
+  padding-top: 56px;
+  padding-bottom: 56px;
+  width: 100%;
+  height: 153px;
+  border: 1px solid #ad1818;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer; 
+  font-size: 30px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.9px;
+  text-decoration: none;
+  color: #ad1818;
+}
+
+.projects__btn:hover {
+  background-color: #ad1818;
+  color: #fff;
+}
+
+.services {
+  margin: 0 auto;
+  margin-top: 150px;
+  width: 1150px;
+  width: 100%;
+  height: 1844px;
+  background-color: #121212;
+}
+
+.services__service:nth-last-child(1) {
+  margin-bottom: 150px;
+}
+
+.services__title {
+  margin-bottom: 34px;
+  padding-top: 151px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  color: #fff;
+}
+
+.services__image {
+  margin-bottom: 15px;
+}
+
+.services__service_title {
+  margin-bottom: 60px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.9px;
+  color: #fff;
+}
+
+.apartment-project {
+  margin-bottom: 150px;
+  height: 717px;
+  position: relative;
+  background-image: url('../resources/fullscreen-interior.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.apartment-project__title {
+  position: absolute;
+  left: 125px;
+  width: 443px;
+  bottom: 60px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.9px;
+  color: #fff;
+}
+
+.contacts {
+  margin-bottom: 150px;
+}
+
+.contacts h2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px;
+}
+
+.contacts__title {
+  margin-bottom: 32px;
+  width: 90px;
+  position: relative;
+}
+
+.contacts__title:before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 37px;
+  left: 0px;
+  background-image: url('/resources/phone.png');
+  width: 13px;
+  height: 22px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.contacts__number {
+  margin-bottom: 30px;
+  display: block;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+  text-decoration: none;
+  color: #121212;
+}
+
+.contacts__mail {
+  padding-bottom: 10px;
+  width: 412px;
+  display: block;
+  border-bottom: 2px #000 solid;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+  opacity: 0.5;
+  text-decoration: none;
+  color: #121212;
+}
+
+footer {
+  margin: 0 auto;
+  background-color: #121212;
+  width: 100%;
+  height: 229px;
+}
+
+.footer__links-wrapper {
+  margin: 0 auto;
+  margin-bottom: 87px;
+  width: 477px;
+}
+
+.footer__link {
+  margin-top: 60px;
+  margin-right: 55px;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__first-link {
+  opacity: 0.5;
+}
+
+.footer__link:nth-last-child(1) {
+  margin-right: 0px;
+}
+
+.footer__copyright {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: -0.6px;
+  opacity: 0.5;
+  color: #fff;
+}
